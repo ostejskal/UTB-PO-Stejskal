@@ -62,6 +62,7 @@
             this.tvorbazamestnance.TabIndex = 2;
             this.tvorbazamestnance.Text = "Tvorba zaměstnance";
             this.tvorbazamestnance.UseVisualStyleBackColor = true;
+            this.tvorbazamestnance.Click += new System.EventHandler(this.tvorbazamestnance_Click);
             // 
             // Hlavniokno
             // 

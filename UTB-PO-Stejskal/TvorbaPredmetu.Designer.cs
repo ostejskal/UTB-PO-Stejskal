@@ -55,6 +55,7 @@
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.textBox12 = new System.Windows.Forms.TextBox();
             this.textBox13 = new System.Windows.Forms.TextBox();
+            this.oktvorbapredmet = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textzkratka
@@ -178,63 +179,63 @@
             // 
             this.textBox1.Location = new System.Drawing.Point(249, 6);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
+            this.textBox1.Size = new System.Drawing.Size(183, 22);
             this.textBox1.TabIndex = 13;
             // 
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(249, 42);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 22);
+            this.textBox2.Size = new System.Drawing.Size(183, 22);
             this.textBox2.TabIndex = 14;
             // 
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(249, 78);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 22);
+            this.textBox3.Size = new System.Drawing.Size(183, 22);
             this.textBox3.TabIndex = 15;
             // 
             // textBox4
             // 
             this.textBox4.Location = new System.Drawing.Point(249, 116);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 22);
+            this.textBox4.Size = new System.Drawing.Size(183, 22);
             this.textBox4.TabIndex = 16;
             // 
             // textBox5
             // 
             this.textBox5.Location = new System.Drawing.Point(249, 155);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 22);
+            this.textBox5.Size = new System.Drawing.Size(183, 22);
             this.textBox5.TabIndex = 17;
             // 
             // textBox6
             // 
             this.textBox6.Location = new System.Drawing.Point(249, 190);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 22);
+            this.textBox6.Size = new System.Drawing.Size(183, 22);
             this.textBox6.TabIndex = 18;
             // 
             // textBox7
             // 
             this.textBox7.Location = new System.Drawing.Point(249, 227);
             this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 22);
+            this.textBox7.Size = new System.Drawing.Size(183, 22);
             this.textBox7.TabIndex = 19;
             // 
             // textBox8
             // 
             this.textBox8.Location = new System.Drawing.Point(249, 260);
             this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(100, 22);
+            this.textBox8.Size = new System.Drawing.Size(183, 22);
             this.textBox8.TabIndex = 20;
             // 
             // textBox9
             // 
             this.textBox9.Location = new System.Drawing.Point(249, 295);
             this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(100, 22);
+            this.textBox9.Size = new System.Drawing.Size(183, 22);
             this.textBox9.TabIndex = 21;
             // 
             // textBox10
@@ -248,14 +249,14 @@
             // 
             this.textBox11.Location = new System.Drawing.Point(249, 357);
             this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(100, 22);
+            this.textBox11.Size = new System.Drawing.Size(183, 22);
             this.textBox11.TabIndex = 23;
             // 
             // textBox12
             // 
             this.textBox12.Location = new System.Drawing.Point(249, 389);
             this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(100, 22);
+            this.textBox12.Size = new System.Drawing.Size(183, 22);
             this.textBox12.TabIndex = 24;
             // 
             // textBox13
@@ -265,11 +266,22 @@
             this.textBox13.Size = new System.Drawing.Size(183, 22);
             this.textBox13.TabIndex = 25;
             // 
+            // oktvorbapredmet
+            // 
+            this.oktvorbapredmet.BackColor = System.Drawing.Color.Red;
+            this.oktvorbapredmet.Location = new System.Drawing.Point(15, 452);
+            this.oktvorbapredmet.Name = "oktvorbapredmet";
+            this.oktvorbapredmet.Size = new System.Drawing.Size(417, 58);
+            this.oktvorbapredmet.TabIndex = 26;
+            this.oktvorbapredmet.Text = "Vytvořit nový předmět!";
+            this.oktvorbapredmet.UseVisualStyleBackColor = false;
+            // 
             // TvorbaPredmetu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(448, 450);
+            this.ClientSize = new System.Drawing.Size(448, 522);
+            this.Controls.Add(this.oktvorbapredmet);
             this.Controls.Add(this.textBox13);
             this.Controls.Add(this.textBox12);
             this.Controls.Add(this.textBox11);
@@ -332,5 +344,6 @@
         private System.Windows.Forms.TextBox textBox11;
         private System.Windows.Forms.TextBox textBox12;
         private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.Button oktvorbapredmet;
     }
 }

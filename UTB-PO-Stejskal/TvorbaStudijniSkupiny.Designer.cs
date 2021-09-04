@@ -47,6 +47,7 @@
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.textBox9 = new System.Windows.Forms.TextBox();
+            this.oktvorbaskupiny = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -134,70 +135,81 @@
             // 
             this.textBox1.Location = new System.Drawing.Point(146, 265);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
+            this.textBox1.Size = new System.Drawing.Size(231, 22);
             this.textBox1.TabIndex = 9;
             // 
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(146, 235);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 22);
+            this.textBox2.Size = new System.Drawing.Size(231, 22);
             this.textBox2.TabIndex = 10;
             // 
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(146, 200);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 22);
+            this.textBox3.Size = new System.Drawing.Size(231, 22);
             this.textBox3.TabIndex = 11;
             // 
             // textBox4
             // 
             this.textBox4.Location = new System.Drawing.Point(146, 166);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 22);
+            this.textBox4.Size = new System.Drawing.Size(231, 22);
             this.textBox4.TabIndex = 12;
             // 
             // textBox5
             // 
             this.textBox5.Location = new System.Drawing.Point(146, 133);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 22);
+            this.textBox5.Size = new System.Drawing.Size(231, 22);
             this.textBox5.TabIndex = 13;
             // 
             // textBox6
             // 
             this.textBox6.Location = new System.Drawing.Point(146, 98);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 22);
+            this.textBox6.Size = new System.Drawing.Size(231, 22);
             this.textBox6.TabIndex = 14;
             // 
             // textBox7
             // 
             this.textBox7.Location = new System.Drawing.Point(146, 68);
             this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 22);
+            this.textBox7.Size = new System.Drawing.Size(231, 22);
             this.textBox7.TabIndex = 15;
             // 
             // textBox8
             // 
             this.textBox8.Location = new System.Drawing.Point(146, 40);
             this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(100, 22);
+            this.textBox8.Size = new System.Drawing.Size(231, 22);
             this.textBox8.TabIndex = 16;
             // 
             // textBox9
             // 
             this.textBox9.Location = new System.Drawing.Point(146, 13);
             this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(100, 22);
+            this.textBox9.Size = new System.Drawing.Size(231, 22);
             this.textBox9.TabIndex = 17;
+            // 
+            // oktvorbaskupiny
+            // 
+            this.oktvorbaskupiny.BackColor = System.Drawing.Color.Red;
+            this.oktvorbaskupiny.Location = new System.Drawing.Point(16, 293);
+            this.oktvorbaskupiny.Name = "oktvorbaskupiny";
+            this.oktvorbaskupiny.Size = new System.Drawing.Size(361, 64);
+            this.oktvorbaskupiny.TabIndex = 18;
+            this.oktvorbaskupiny.Text = "Vytvořit novou studijní skupinu!";
+            this.oktvorbaskupiny.UseVisualStyleBackColor = false;
             // 
             // TvorbaStudijniSkupiny
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(325, 304);
+            this.ClientSize = new System.Drawing.Size(389, 361);
+            this.Controls.Add(this.oktvorbaskupiny);
             this.Controls.Add(this.textBox9);
             this.Controls.Add(this.textBox8);
             this.Controls.Add(this.textBox7);
@@ -244,5 +256,6 @@
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.Button oktvorbaskupiny;
     }
 }

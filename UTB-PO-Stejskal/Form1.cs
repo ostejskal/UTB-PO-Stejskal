@@ -30,5 +30,12 @@ namespace UTB_PO_Stejskal
             tvorbaskupinky.Show();
             Skupinka novaskupinka = new Skupinka();
         }
+
+        private void tvorbazamestnance_Click(object sender, EventArgs e)
+        {
+            TvorbaZamestnance tvorbapracovnika = new TvorbaZamestnance();
+            tvorbapracovnika.Show();
+            Zamestnanec novyzamestnanec = new Zamestnanec();
+        }
     }
 }
