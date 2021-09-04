@@ -16,5 +16,19 @@ namespace UTB_PO_Stejskal
         {
             InitializeComponent();
         }
+
+        private void tvorbapredmetu_Click(object sender, EventArgs e)
+        {
+            TvorbaPredmetu tvorba = new TvorbaPredmetu();
+            tvorba.Show();
+            Predmet novypredment = new Predmet();
+        }
+
+        private void tvorbaskupiny_Click(object sender, EventArgs e)
+        {
+            TvorbaStudijniSkupiny tvorbaskupinky = new TvorbaStudijniSkupiny();
+            tvorbaskupinky.Show();
+            Skupinka novaskupinka = new Skupinka();
+        }
     }
 }

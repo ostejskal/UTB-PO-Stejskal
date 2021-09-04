@@ -1,0 +1,12 @@
+C:\Users\ostejskal\source\repos\ostejskal\UTB-PO-Stejskal\UTB-PO-Stejskal\bin\Debug\UTB-PO-Stejskal.exe.config
+C:\Users\ostejskal\source\repos\ostejskal\UTB-PO-Stejskal\UTB-PO-Stejskal\bin\Debug\UTB-PO-Stejskal.exe
+C:\Users\ostejskal\source\repos\ostejskal\UTB-PO-Stejskal\UTB-PO-Stejskal\bin\Debug\UTB-PO-Stejskal.pdb
+C:\Users\ostejskal\source\repos\ostejskal\UTB-PO-Stejskal\UTB-PO-Stejskal\obj\Debug\UTB-PO-Stejskal.csprojAssemblyReference.cache
+C:\Users\ostejskal\source\repos\ostejskal\UTB-PO-Stejskal\UTB-PO-Stejskal\obj\Debug\UTB_PO_Stejskal.Hlavniokno.resources
+C:\Users\ostejskal\source\repos\ostejskal\UTB-PO-Stejskal\UTB-PO-Stejskal\obj\Debug\UTB_PO_Stejskal.Properties.Resources.resources
+C:\Users\ostejskal\source\repos\ostejskal\UTB-PO-Stejskal\UTB-PO-Stejskal\obj\Debug\UTB-PO-Stejskal.csproj.GenerateResource.cache
+C:\Users\ostejskal\source\repos\ostejskal\UTB-PO-Stejskal\UTB-PO-Stejskal\obj\Debug\UTB-PO-Stejskal.csproj.CoreCompileInputs.cache
+C:\Users\ostejskal\source\repos\ostejskal\UTB-PO-Stejskal\UTB-PO-Stejskal\obj\Debug\UTB-PO-Stejskal.exe
+C:\Users\ostejskal\source\repos\ostejskal\UTB-PO-Stejskal\UTB-PO-Stejskal\obj\Debug\UTB-PO-Stejskal.pdb
+C:\Users\ostejskal\source\repos\ostejskal\UTB-PO-Stejskal\UTB-PO-Stejskal\obj\Debug\UTB_PO_Stejskal.TvorbaPredmetu.resources
+C:\Users\ostejskal\source\repos\ostejskal\UTB-PO-Stejskal\UTB-PO-Stejskal\obj\Debug\UTB_PO_Stejskal.TvorbaStudijniSkupiny.resources

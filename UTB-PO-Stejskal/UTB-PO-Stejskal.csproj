@@ -58,6 +58,24 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Skupinka.cs" />
+    <Compile Include="TvorbaPredmetu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TvorbaPredmetu.Designer.cs">
+      <DependentUpon>TvorbaPredmetu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TvorbaStudijniSkupiny.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TvorbaStudijniSkupiny.Designer.cs">
+      <DependentUpon>TvorbaStudijniSkupiny.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TvorbaZamestnance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TvorbaZamestnance.Designer.cs">
+      <DependentUpon>TvorbaZamestnance.cs</DependentUpon>
+    </Compile>
     <Compile Include="VahyPracovnichBodu.cs" />
     <Compile Include="Zamestnanec.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -72,6 +90,15 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="TvorbaPredmetu.resx">
+      <DependentUpon>TvorbaPredmetu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TvorbaStudijniSkupiny.resx">
+      <DependentUpon>TvorbaStudijniSkupiny.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TvorbaZamestnance.resx">
+      <DependentUpon>TvorbaZamestnance.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

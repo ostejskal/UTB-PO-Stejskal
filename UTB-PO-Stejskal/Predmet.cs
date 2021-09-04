@@ -24,5 +24,9 @@ namespace UTB_PO_Stejskal
         int PocetKreditu;
         GarantujiciUstav GarantujiciUstav;
         String JmenoGaranta;
+        public Predmet()
+        {
+            
+        }
     }
 }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Hlavniokno));
             this.tvorbapredmetu = new System.Windows.Forms.Button();
             this.tvorbaskupiny = new System.Windows.Forms.Button();
             this.tvorbazamestnance = new System.Windows.Forms.Button();
@@ -41,6 +42,7 @@
             this.tvorbapredmetu.TabIndex = 0;
             this.tvorbapredmetu.Text = "Tvorba předmětu";
             this.tvorbapredmetu.UseVisualStyleBackColor = true;
+            this.tvorbapredmetu.Click += new System.EventHandler(this.tvorbapredmetu_Click);
             // 
             // tvorbaskupiny
             // 
@@ -50,6 +52,7 @@
             this.tvorbaskupiny.TabIndex = 1;
             this.tvorbaskupiny.Text = "Tvorba studijní skupiny";
             this.tvorbaskupiny.UseVisualStyleBackColor = true;
+            this.tvorbaskupiny.Click += new System.EventHandler(this.tvorbaskupiny_Click);
             // 
             // tvorbazamestnance
             // 
@@ -68,6 +71,7 @@
             this.Controls.Add(this.tvorbazamestnance);
             this.Controls.Add(this.tvorbaskupiny);
             this.Controls.Add(this.tvorbapredmetu);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Hlavniokno";
             this.Text = "PO-Stejskal";
             this.ResumeLayout(false);
