@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace UTB_PO_Stejskal
 {
+    enum GarantujiciUstav { UIUI, FAI }
+    enum Jazyk { cz, eng }
+    enum ZpusobZakonceni { z, zk }
     class Predmet
     {
         String Zkratka;
@@ -13,13 +16,13 @@ namespace UTB_PO_Stejskal
         int HodinyPrednasek;
         int HodinyCviceni;
         int HodinySeminaru;
-        enum ZpusobZakonceni { z, zk}
-        enum Jazyk { cz, eng}
+        ZpusobZakonceni ZpusobZakonceni;
+        Jazyk Jazyk;
         int VelikostTridy = 24;
         List<Skupinka> SeznamSkupin;
         String NazevPredmetu;
         int PocetKreditu;
-        enum GarantujiciUstav { UIUI, FAI}
+        GarantujiciUstav GarantujiciUstav;
         String JmenoGaranta;
     }
 }
