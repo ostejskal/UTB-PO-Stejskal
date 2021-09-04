@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace UTB_PO_Stejskal
 {
-    public partial class Form1 : Form
+    public partial class Hlavniokno : Form
     {
-        public Form1()
+        public Hlavniokno()
         {
             InitializeComponent();
         }

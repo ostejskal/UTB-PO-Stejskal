@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace UTB_PO_Stejskal
 {
     enum GarantujiciUstav { UIUI, FAI }
-    enum Jazyk { cz, eng }
+    //enum Jazyk { cz, eng }
     enum ZpusobZakonceni { z, zk }
     class Predmet
     {

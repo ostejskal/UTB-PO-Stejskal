@@ -10,7 +10,7 @@ namespace UTB_PO_Stejskal
     {
         String Jmeno;
         String Prijmeni;
-        //doplnit: Celé jméno – Jméno + Příjmení – Pavel Vařacha
+        String Cele_Jmeno;//doplnit: Celé jméno – Jméno + Příjmení – Pavel Vařacha
         String PracovniEmail;
         String SoukromyEmail;
         bool Doktorand;

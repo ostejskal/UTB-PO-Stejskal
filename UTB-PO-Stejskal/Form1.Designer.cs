@@ -1,6 +1,6 @@
 ﻿namespace UTB_PO_Stejskal
 {
-    partial class Form1
+    partial class Hlavniokno
     {
         /// <summary>
         /// Vyžaduje se proměnná návrháře.
@@ -28,13 +28,57 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.tvorbapredmetu = new System.Windows.Forms.Button();
+            this.tvorbaskupiny = new System.Windows.Forms.Button();
+            this.tvorbazamestnance = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // tvorbapredmetu
+            // 
+            this.tvorbapredmetu.Location = new System.Drawing.Point(12, 12);
+            this.tvorbapredmetu.Name = "tvorbapredmetu";
+            this.tvorbapredmetu.Size = new System.Drawing.Size(153, 60);
+            this.tvorbapredmetu.TabIndex = 0;
+            this.tvorbapredmetu.Text = "Tvorba předmětu";
+            this.tvorbapredmetu.UseVisualStyleBackColor = true;
+            // 
+            // tvorbaskupiny
+            // 
+            this.tvorbaskupiny.Location = new System.Drawing.Point(171, 12);
+            this.tvorbaskupiny.Name = "tvorbaskupiny";
+            this.tvorbaskupiny.Size = new System.Drawing.Size(153, 60);
+            this.tvorbaskupiny.TabIndex = 1;
+            this.tvorbaskupiny.Text = "Tvorba studijní skupiny";
+            this.tvorbaskupiny.UseVisualStyleBackColor = true;
+            // 
+            // tvorbazamestnance
+            // 
+            this.tvorbazamestnance.Location = new System.Drawing.Point(330, 12);
+            this.tvorbazamestnance.Name = "tvorbazamestnance";
+            this.tvorbazamestnance.Size = new System.Drawing.Size(153, 60);
+            this.tvorbazamestnance.TabIndex = 2;
+            this.tvorbazamestnance.Text = "Tvorba zaměstnance";
+            this.tvorbazamestnance.UseVisualStyleBackColor = true;
+            // 
+            // Hlavniokno
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(511, 87);
+            this.Controls.Add(this.tvorbazamestnance);
+            this.Controls.Add(this.tvorbaskupiny);
+            this.Controls.Add(this.tvorbapredmetu);
+            this.Name = "Hlavniokno";
+            this.Text = "PO-Stejskal";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button tvorbapredmetu;
+        private System.Windows.Forms.Button tvorbaskupiny;
+        private System.Windows.Forms.Button tvorbazamestnance;
     }
 }
 
