@@ -275,6 +275,7 @@
             this.oktvorbapredmet.TabIndex = 26;
             this.oktvorbapredmet.Text = "Vytvořit nový předmět!";
             this.oktvorbapredmet.UseVisualStyleBackColor = false;
+            this.oktvorbapredmet.Click += new System.EventHandler(this.oktvorbapredmet_Click);
             // 
             // TvorbaPredmetu
             // 

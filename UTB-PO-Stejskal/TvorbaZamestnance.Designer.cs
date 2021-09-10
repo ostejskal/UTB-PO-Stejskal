@@ -169,7 +169,7 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(212, 60);
+            this.textBox3.Location = new System.Drawing.Point(213, 58);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(187, 22);
             this.textBox3.TabIndex = 13;
@@ -239,12 +239,13 @@
             this.oktvorbazamestnance.TabIndex = 22;
             this.oktvorbazamestnance.Text = "Vytvořit nového zaměstnance!";
             this.oktvorbazamestnance.UseVisualStyleBackColor = false;
+            this.oktvorbazamestnance.Click += new System.EventHandler(this.oktvorbazamestnance_Click);
             // 
             // TvorbaZamestnance
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(412, 380);
+            this.ClientSize = new System.Drawing.Size(415, 380);
             this.Controls.Add(this.oktvorbazamestnance);
             this.Controls.Add(this.textBox11);
             this.Controls.Add(this.textBox10);

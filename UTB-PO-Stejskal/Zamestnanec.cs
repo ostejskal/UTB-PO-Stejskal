@@ -8,16 +8,55 @@ namespace UTB_PO_Stejskal
 {
     class Zamestnanec
     {
-        String Jmeno;
+        private String Jmeno;
+        public String jmeno
+        {
+            get { return Jmeno; } 
+            set { Jmeno = value; } 
+        }
         String Prijmeni;
-        String Cele_Jmeno;//doplnit: Celé jméno – Jméno + Příjmení – Pavel Vařacha
+        public String prijmeni
+        {
+            get { return Prijmeni; }
+            set { Prijmeni = value; }
+        }
         String PracovniEmail;
+        public String pracovniemail
+        {
+            get { return PracovniEmail; }
+            set { PracovniEmail = value; }
+        }
         String SoukromyEmail;
+        public String soukromyemail
+        {
+            get { return SoukromyEmail; }
+            set { SoukromyEmail = value; }
+        }
         bool Doktorand;
+        public bool doktorand
+        {
+            get { return Doktorand; }
+            set { Doktorand = value; }
+        }
         double Uvazek;
+        public double uvazek
+        {
+            get { return Uvazek; }
+            set { Uvazek = value; }
+        }
         List<PracovniStitek> SeznamStitku;
         String PracovniTelefon;
         String SoukromyTelefon;
+        public String pracovnitelefon
+        {
+            get { return PracovniTelefon; }
+            set { PracovniTelefon = value; }
+        }
+        public String soukromytelefon
+        {
+            get { return SoukromyTelefon; }
+            set { SoukromyTelefon = value; }
+        }
         public int PracovniBodyBezAnglictiny ()
         {
             return 0;
