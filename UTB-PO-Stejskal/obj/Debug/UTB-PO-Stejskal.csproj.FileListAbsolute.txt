@@ -11,3 +11,4 @@ C:\Users\ostejskal\source\repos\ostejskal\UTB-PO-Stejskal\UTB-PO-Stejskal\obj\De
 C:\Users\ostejskal\source\repos\ostejskal\UTB-PO-Stejskal\UTB-PO-Stejskal\obj\Debug\UTB_PO_Stejskal.TvorbaPredmetu.resources
 C:\Users\ostejskal\source\repos\ostejskal\UTB-PO-Stejskal\UTB-PO-Stejskal\obj\Debug\UTB_PO_Stejskal.TvorbaStudijniSkupiny.resources
 C:\Users\ostejskal\source\repos\ostejskal\UTB-PO-Stejskal\UTB-PO-Stejskal\obj\Debug\UTB_PO_Stejskal.TvorbaZamestnance.resources
+C:\Users\ostejskal\source\repos\ostejskal\UTB-PO-Stejskal\UTB-PO-Stejskal\obj\Debug\UTB_PO_Stejskal.SeznamStitku.resources

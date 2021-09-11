@@ -37,5 +37,11 @@ namespace UTB_PO_Stejskal
             tvorbapracovnika.Show();
             Zamestnanec novyzamestnanec = new Zamestnanec();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            SeznamStitku seznam = new SeznamStitku();
+            seznam.Show();
+        }
     }
 }

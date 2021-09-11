@@ -60,6 +60,17 @@
       <pocetkreditu>9</pocetkreditu>
       <JmenoGaranta>9</JmenoGaranta>
     </Predmet>
+    <Predmet>
+      <zkratka>99</zkratka>
+      <pocettydnu>99</pocettydnu>
+      <hodinyprednasek>99</hodinyprednasek>
+      <hodinycviceni>99</hodinycviceni>
+      <hodinyseminaru>99</hodinyseminaru>
+      <velikosttridy>99</velikosttridy>
+      <nazevpredmetu>99</nazevpredmetu>
+      <pocetkreditu>99</pocetkreditu>
+      <JmenoGaranta>99</JmenoGaranta>
+    </Predmet>
   </listpredmetu>
   <listpracovnichstitku />
 </AllObjects>
