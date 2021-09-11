@@ -8,7 +8,7 @@ namespace UTB_PO_Stejskal
 {
     enum TypPracStitek { prednaska, cviceni, seminar, zapocet, klasifikovany_zapocet, zkouska }
     enum JazykStitek { cz , eng}
-    class PracovniStitek
+    public class PracovniStitek
     {
         String Nazev;
         Zamestnanec Zamestnanec = new Zamestnanec();

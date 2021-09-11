@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AllObjects xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <listskupinky />
+  <listzamestnancu />
+  <listpredmetu>
+    <Predmet>
+      <zkratka>5</zkratka>
+      <pocettydnu>5</pocettydnu>
+      <hodinyprednasek>5</hodinyprednasek>
+      <hodinycviceni>5</hodinycviceni>
+      <hodinyseminaru>5</hodinyseminaru>
+      <velikosttridy>5</velikosttridy>
+      <nazevpredmetu>5</nazevpredmetu>
+      <pocetkreditu>5</pocetkreditu>
+      <JmenoGaranta>5</JmenoGaranta>
+    </Predmet>
+    <Predmet>
+      <zkratka>6</zkratka>
+      <pocettydnu>6</pocettydnu>
+      <hodinyprednasek>6</hodinyprednasek>
+      <hodinycviceni>6</hodinycviceni>
+      <hodinyseminaru>6</hodinyseminaru>
+      <velikosttridy>6</velikosttridy>
+      <nazevpredmetu>6</nazevpredmetu>
+      <pocetkreditu>6</pocetkreditu>
+      <JmenoGaranta>6</JmenoGaranta>
+    </Predmet>
+  </listpredmetu>
+  <listpracovnichstitku />
+</AllObjects>

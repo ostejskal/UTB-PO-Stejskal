@@ -12,13 +12,19 @@ namespace UTB_PO_Stejskal
 {
     public partial class TvorbaPredmetu : Form
     {
+
+        public AllObjects allObjects;
+
         public TvorbaPredmetu()
         {
             InitializeComponent();
+            XMLObject obj = new XMLObject();
+            allObjects = obj.DeSerialize();
         }
 
         private void oktvorbapredmet_Click(object sender, EventArgs e)
         {
+            try { 
             Predmet novypredmet = new Predmet();
             novypredmet.zkratka = textBox1.Text ?? "";
             if (textBox2.Text != "") novypredmet.pocettydnu = int.Parse(textBox2.Text);
@@ -29,6 +35,16 @@ namespace UTB_PO_Stejskal
             novypredmet.nazevpredmetu = textBox10.Text ?? "";
             if (textBox11.Text != "") novypredmet.pocetkreditu = int.Parse(textBox11.Text);
             novypredmet.JmenoGaranta = textBox13.Text ?? "";
+                XMLObject obj = new XMLObject();
+                allObjects.listpredmetu.Add(novypredmet);
+                obj.Serialize(allObjects);
+
+            }
+            catch ( Exception ex)
+            {
+                MessageBox.Show("Chyba při přidávání předmětu: " + ex.Message);
+            }
+
         }
     }
 }

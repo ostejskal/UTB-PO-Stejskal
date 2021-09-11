@@ -203,6 +203,7 @@
             this.oktvorbaskupiny.TabIndex = 18;
             this.oktvorbaskupiny.Text = "Vytvořit novou studijní skupinu!";
             this.oktvorbaskupiny.UseVisualStyleBackColor = false;
+            this.oktvorbaskupiny.Click += new System.EventHandler(this.oktvorbaskupiny_Click);
             // 
             // TvorbaStudijniSkupiny
             // 

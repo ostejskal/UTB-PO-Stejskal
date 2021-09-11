@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AllObjects.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -77,6 +78,7 @@
       <DependentUpon>TvorbaZamestnance.cs</DependentUpon>
     </Compile>
     <Compile Include="VahyPracovnichBodu.cs" />
+    <Compile Include="XMLObject.cs" />
     <Compile Include="Zamestnanec.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

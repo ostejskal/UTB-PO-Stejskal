@@ -16,5 +16,14 @@ namespace UTB_PO_Stejskal
         {
             InitializeComponent();
         }
+
+        private void oktvorbaskupiny_Click(object sender, EventArgs e)
+        {
+            Skupinka novaskupinka = new Skupinka();
+            novaskupinka.Zkratka = textBox9.Text;
+            novaskupinka.Rocnik = int.Parse(textBox8.Text);
+            novaskupinka.PocetStudentu = int.Parse(textBox6.Text);
+            novaskupinka.Nazev = textBox1.Text;
+        }
     }
 }

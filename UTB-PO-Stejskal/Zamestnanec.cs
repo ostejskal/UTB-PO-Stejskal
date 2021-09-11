@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UTB_PO_Stejskal
 {
-    class Zamestnanec
+    public class Zamestnanec
     {
         private String Jmeno;
         public String jmeno

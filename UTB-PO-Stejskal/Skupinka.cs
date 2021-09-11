@@ -10,16 +10,16 @@ namespace UTB_PO_Stejskal
     enum FormaStudia { P, K }
     enum TypStudia { Bc, Mgr }
     enum Jazyk { cz, eng }
-    class Skupinka
+    public class Skupinka
     {
-        string Zkratka;
-        int Rocnik;
+        public string Zkratka { get; set; }
+        public int Rocnik { get; set; }
         Semestr Semestr;
-        int PocetStudentu;
+        public int PocetStudentu { get; set; }
         FormaStudia FormaStudia;
         TypStudia TypStudia;
         Jazyk Jazyk;
-        String Nazev;
+        public String Nazev { get; set; }
         List<Predmet> SeznamPredmetu;
     }
 }

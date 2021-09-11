@@ -9,7 +9,7 @@ namespace UTB_PO_Stejskal
     enum GarantujiciUstav { UIUI, FAI }
     //enum Jazyk { cz, eng }
     enum ZpusobZakonceni { z, zk }
-    class Predmet
+    public class Predmet
     {
         String Zkratka;
         public String zkratka
