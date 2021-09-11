@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <AllObjects xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <listskupinky />
-  <listzamestnancu />
+  <listskupinky>
+    <Skupinka>
+      <Zkratka>10</Zkratka>
+      <Rocnik>10</Rocnik>
+      <PocetStudentu>10</PocetStudentu>
+      <Nazev>10</Nazev>
+    </Skupinka>
+    <Skupinka>
+      <Zkratka>99</Zkratka>
+      <Rocnik>99</Rocnik>
+      <PocetStudentu>99</PocetStudentu>
+      <Nazev>99</Nazev>
+    </Skupinka>
+  </listskupinky>
+  <listzamestnancu>
+    <Zamestnanec>
+      <jmeno>9</jmeno>
+      <prijmeni>9</prijmeni>
+      <pracovniemail>9</pracovniemail>
+      <soukromyemail>9</soukromyemail>
+      <doktorand>true</doktorand>
+      <uvazek>9</uvazek>
+      <pracovnitelefon>9</pracovnitelefon>
+      <soukromytelefon>9</soukromytelefon>
+    </Zamestnanec>
+  </listzamestnancu>
   <listpredmetu>
     <Predmet>
       <zkratka>5</zkratka>
@@ -24,6 +48,17 @@
       <nazevpredmetu>6</nazevpredmetu>
       <pocetkreditu>6</pocetkreditu>
       <JmenoGaranta>6</JmenoGaranta>
+    </Predmet>
+    <Predmet>
+      <zkratka>9</zkratka>
+      <pocettydnu>9</pocettydnu>
+      <hodinyprednasek>9</hodinyprednasek>
+      <hodinycviceni>9</hodinycviceni>
+      <hodinyseminaru>9</hodinyseminaru>
+      <velikosttridy>9</velikosttridy>
+      <nazevpredmetu>9</nazevpredmetu>
+      <pocetkreditu>9</pocetkreditu>
+      <JmenoGaranta>9</JmenoGaranta>
     </Predmet>
   </listpredmetu>
   <listpracovnichstitku />
