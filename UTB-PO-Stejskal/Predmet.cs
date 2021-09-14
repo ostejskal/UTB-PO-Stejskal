@@ -49,7 +49,7 @@ namespace UTB_PO_Stejskal
             get { return VelikostTridy; }
             set { VelikostTridy = value; }
         }
-        List<Skupinka> SeznamSkupin;
+        public List<Skupinka> SeznamSkupin;
         String NazevPredmetu;
         public String nazevpredmetu
         {

@@ -2,74 +2,52 @@
 <AllObjects xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <listskupinky>
     <Skupinka>
-      <Zkratka>10</Zkratka>
-      <Rocnik>10</Rocnik>
+      <Zkratka>SWI2</Zkratka>
+      <Rocnik>2</Rocnik>
       <PocetStudentu>10</PocetStudentu>
-      <Nazev>10</Nazev>
+      <Nazev>Softwarove inzenyrstvi ITA2</Nazev>
     </Skupinka>
     <Skupinka>
-      <Zkratka>99</Zkratka>
-      <Rocnik>99</Rocnik>
-      <PocetStudentu>99</PocetStudentu>
-      <Nazev>99</Nazev>
+      <Zkratka>KYB4</Zkratka>
+      <Rocnik>4</Rocnik>
+      <PocetStudentu>5</PocetStudentu>
+      <Nazev>Kybernetika ITA4</Nazev>
     </Skupinka>
   </listskupinky>
   <listzamestnancu>
     <Zamestnanec>
-      <jmeno>9</jmeno>
-      <prijmeni>9</prijmeni>
-      <pracovniemail>9</pracovniemail>
-      <soukromyemail>9</soukromyemail>
+      <jmeno>Jarda</jmeno>
+      <prijmeni>Svec</prijmeni>
+      <pracovniemail>jardasvec@gmail.com</pracovniemail>
+      <soukromyemail>jardasvec@atlas.cz</soukromyemail>
       <doktorand>true</doktorand>
-      <uvazek>9</uvazek>
-      <pracovnitelefon>9</pracovnitelefon>
-      <soukromytelefon>9</soukromytelefon>
+      <uvazek>1</uvazek>
+      <pracovnitelefon>999555999</pracovnitelefon>
+      <soukromytelefon>292929299</soukromytelefon>
     </Zamestnanec>
   </listzamestnancu>
   <listpredmetu>
     <Predmet>
-      <zkratka>5</zkratka>
-      <pocettydnu>5</pocettydnu>
-      <hodinyprednasek>5</hodinyprednasek>
-      <hodinycviceni>5</hodinycviceni>
-      <hodinyseminaru>5</hodinyseminaru>
-      <velikosttridy>5</velikosttridy>
-      <nazevpredmetu>5</nazevpredmetu>
+      <zkratka>PRG</zkratka>
+      <pocettydnu>20</pocettydnu>
+      <hodinyprednasek>50</hodinyprednasek>
+      <hodinycviceni>50</hodinycviceni>
+      <hodinyseminaru>20</hodinyseminaru>
+      <velikosttridy>30</velikosttridy>
+      <nazevpredmetu>Programovani</nazevpredmetu>
       <pocetkreditu>5</pocetkreditu>
-      <JmenoGaranta>5</JmenoGaranta>
+      <JmenoGaranta>Jarda Svec</JmenoGaranta>
     </Predmet>
     <Predmet>
-      <zkratka>6</zkratka>
-      <pocettydnu>6</pocettydnu>
-      <hodinyprednasek>6</hodinyprednasek>
-      <hodinycviceni>6</hodinycviceni>
-      <hodinyseminaru>6</hodinyseminaru>
-      <velikosttridy>6</velikosttridy>
-      <nazevpredmetu>6</nazevpredmetu>
-      <pocetkreditu>6</pocetkreditu>
-      <JmenoGaranta>6</JmenoGaranta>
-    </Predmet>
-    <Predmet>
-      <zkratka>9</zkratka>
-      <pocettydnu>9</pocettydnu>
-      <hodinyprednasek>9</hodinyprednasek>
-      <hodinycviceni>9</hodinycviceni>
-      <hodinyseminaru>9</hodinyseminaru>
-      <velikosttridy>9</velikosttridy>
-      <nazevpredmetu>9</nazevpredmetu>
-      <pocetkreditu>9</pocetkreditu>
-      <JmenoGaranta>9</JmenoGaranta>
-    </Predmet>
-    <Predmet>
-      <zkratka>99</zkratka>
-      <pocettydnu>99</pocettydnu>
-      <hodinyprednasek>99</hodinyprednasek>
-      <hodinycviceni>99</hodinycviceni>
-      <hodinyseminaru>99</hodinyseminaru>
-      <velikosttridy>99</velikosttridy>
-      <nazevpredmetu>99</nazevpredmetu>
-      <pocetkreditu>99</pocetkreditu>
-      <JmenoGaranta>99</JmenoGaranta>
+      <zkratka>INF</zkratka>
+      <pocettydnu>20</pocettydnu>
+      <hodinyprednasek>20</hodinyprednasek>
+      <hodinycviceni>20</hodinycviceni>
+      <hodinyseminaru>20</hodinyseminaru>
+      <velikosttridy>30</velikosttridy>
+      <nazevpredmetu>Informatika</nazevpredmetu>
+      <pocetkreditu>3</pocetkreditu>
+      <JmenoGaranta>Jarda Svec</JmenoGaranta>
     </Predmet>
   </listpredmetu>
   <listpracovnichstitku />

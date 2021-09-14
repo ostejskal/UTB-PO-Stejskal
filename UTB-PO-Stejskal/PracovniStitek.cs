@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace UTB_PO_Stejskal
 {
     enum TypPracStitek { prednaska, cviceni, seminar, zapocet, klasifikovany_zapocet, zkouska }
-    enum JazykStitek { cz , eng}
+    enum JazykStitek { cz, eng }
     public class PracovniStitek
     {
         String Nazev;

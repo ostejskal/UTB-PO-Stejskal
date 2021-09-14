@@ -43,5 +43,17 @@ namespace UTB_PO_Stejskal
             SeznamStitku seznam = new SeznamStitku();
             seznam.Show();
         }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            PropojeniPredmetuSkupin propojeni = new PropojeniPredmetuSkupin();
+            propojeni.Show();
+        }
+
+        private void generovanitlacitko_Click(object sender, EventArgs e)
+        {
+            PracovniStitek stitek = new PracovniStitek();
+            
+        }
     }
 }
