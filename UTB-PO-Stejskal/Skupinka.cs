@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace UTB_PO_Stejskal
 {
-    enum Semestr { LS, ZS }
-    enum FormaStudia { P, K }
-    enum TypStudia { Bc, Mgr }
-    enum Jazyk { cz, eng }
+    public enum Semestr { LS, ZS }
+    public enum FormaStudia { P, K }
+    public enum TypStudia { Bc, Mgr }
+    public enum Jazyk { cz, eng }
     public class Skupinka
     {
         public string Zkratka { get; set; }

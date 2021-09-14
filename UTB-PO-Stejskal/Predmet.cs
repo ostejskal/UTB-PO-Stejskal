@@ -42,7 +42,7 @@ namespace UTB_PO_Stejskal
             set { HodinySeminaru = value; }
         }
         ZpusobZakonceni ZpusobZakonceni;
-        Jazyk Jazyk;
+        public Jazyk Jazyk;
         int VelikostTridy = 24;
         public int velikosttridy
         {

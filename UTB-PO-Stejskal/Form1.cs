@@ -12,6 +12,7 @@ namespace UTB_PO_Stejskal
 {
     public partial class Hlavniokno : Form
     {
+        public AllObjects allObjects;
         public Hlavniokno()
         {
             InitializeComponent();
@@ -54,6 +55,12 @@ namespace UTB_PO_Stejskal
         {
             PracovniStitek stitek = new PracovniStitek();
             
+        }
+
+        private int funkceprogenerovani()
+        {
+            
+            return 0;
         }
     }
 }

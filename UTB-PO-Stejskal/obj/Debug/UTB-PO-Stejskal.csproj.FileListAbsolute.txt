@@ -12,3 +12,4 @@ C:\Users\ostejskal\source\repos\ostejskal\UTB-PO-Stejskal\UTB-PO-Stejskal\obj\De
 C:\Users\ostejskal\source\repos\ostejskal\UTB-PO-Stejskal\UTB-PO-Stejskal\obj\Debug\UTB-PO-Stejskal.exe
 C:\Users\ostejskal\source\repos\ostejskal\UTB-PO-Stejskal\UTB-PO-Stejskal\obj\Debug\UTB-PO-Stejskal.pdb
 C:\Users\ostejskal\source\repos\ostejskal\UTB-PO-Stejskal\UTB-PO-Stejskal\obj\Debug\UTB_PO_Stejskal.PropojeniPredmetuSkupin.resources
+C:\Users\ostejskal\source\repos\ostejskal\UTB-PO-Stejskal\UTB-PO-Stejskal\obj\Debug\UTB-PO-Stejskal.csprojAssemblyReference.cache
