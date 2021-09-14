@@ -65,7 +65,8 @@ namespace UTB_PO_Stejskal
 
         private void propojenizamstitek_Click(object sender, EventArgs e)
         {
-
+            Stitek_Zamestnanec propojeni = new Stitek_Zamestnanec();
+            propojeni.Show();
         }
     }
 }

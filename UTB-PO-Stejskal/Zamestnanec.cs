@@ -44,7 +44,7 @@ namespace UTB_PO_Stejskal
             get { return Uvazek; }
             set { Uvazek = value; }
         }
-        List<PracovniStitek> SeznamStitku;
+        public List<PracovniStitek> SeznamStitku;
         String PracovniTelefon;
         String SoukromyTelefon;
         public String pracovnitelefon
@@ -65,6 +65,5 @@ namespace UTB_PO_Stejskal
         {
             return 0;
         }
-
     }
 }
