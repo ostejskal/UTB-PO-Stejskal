@@ -35,6 +35,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.generovanitlacitko = new System.Windows.Forms.Button();
+            this.propojenizamstitek = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // tvorbapredmetu
@@ -97,11 +98,22 @@
             this.generovanitlacitko.UseVisualStyleBackColor = true;
             this.generovanitlacitko.Click += new System.EventHandler(this.generovanitlacitko_Click);
             // 
+            // propojenizamstitek
+            // 
+            this.propojenizamstitek.Location = new System.Drawing.Point(12, 141);
+            this.propojenizamstitek.Name = "propojenizamstitek";
+            this.propojenizamstitek.Size = new System.Drawing.Size(153, 57);
+            this.propojenizamstitek.TabIndex = 6;
+            this.propojenizamstitek.Text = "Propojení štítků a zaměstnanců";
+            this.propojenizamstitek.UseVisualStyleBackColor = true;
+            this.propojenizamstitek.Click += new System.EventHandler(this.propojenizamstitek_Click);
+            // 
             // Hlavniokno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(502, 144);
+            this.ClientSize = new System.Drawing.Size(502, 229);
+            this.Controls.Add(this.propojenizamstitek);
             this.Controls.Add(this.generovanitlacitko);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -123,6 +135,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button generovanitlacitko;
+        private System.Windows.Forms.Button propojenizamstitek;
     }
 }
 

@@ -72,6 +72,12 @@
       <DependentUpon>SeznamStitku.cs</DependentUpon>
     </Compile>
     <Compile Include="Skupinka.cs" />
+    <Compile Include="Stitek+Zamestnanec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stitek+Zamestnanec.Designer.cs">
+      <DependentUpon>Stitek+Zamestnanec.cs</DependentUpon>
+    </Compile>
     <Compile Include="TvorbaPredmetu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +116,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SeznamStitku.resx">
       <DependentUpon>SeznamStitku.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stitek+Zamestnanec.resx">
+      <DependentUpon>Stitek+Zamestnanec.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TvorbaPredmetu.resx">
       <DependentUpon>TvorbaPredmetu.cs</DependentUpon>

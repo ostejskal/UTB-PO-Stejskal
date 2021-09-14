@@ -13,6 +13,12 @@
       <PocetStudentu>5</PocetStudentu>
       <Nazev>Kybernetika ITA4</Nazev>
     </Skupinka>
+    <Skupinka>
+      <Zkratka>ROP</Zkratka>
+      <Rocnik>1</Rocnik>
+      <PocetStudentu>30</PocetStudentu>
+      <Nazev />
+    </Skupinka>
   </listskupinky>
   <listzamestnancu>
     <Zamestnanec>
@@ -28,6 +34,8 @@
   </listzamestnancu>
   <listpredmetu>
     <Predmet>
+      <Jazyk>cz</Jazyk>
+      <SeznamSkupin />
       <zkratka>PRG</zkratka>
       <pocettydnu>20</pocettydnu>
       <hodinyprednasek>50</hodinyprednasek>
@@ -39,6 +47,8 @@
       <JmenoGaranta>Jarda Svec</JmenoGaranta>
     </Predmet>
     <Predmet>
+      <Jazyk>cz</Jazyk>
+      <SeznamSkupin />
       <zkratka>INF</zkratka>
       <pocettydnu>20</pocettydnu>
       <hodinyprednasek>20</hodinyprednasek>
@@ -48,6 +58,45 @@
       <nazevpredmetu>Informatika</nazevpredmetu>
       <pocetkreditu>3</pocetkreditu>
       <JmenoGaranta>Jarda Svec</JmenoGaranta>
+    </Predmet>
+    <Predmet>
+      <Jazyk>cz</Jazyk>
+      <SeznamSkupin />
+      <zkratka>POS</zkratka>
+      <pocettydnu>12</pocettydnu>
+      <hodinyprednasek>2</hodinyprednasek>
+      <hodinycviceni>2</hodinycviceni>
+      <hodinyseminaru>0</hodinyseminaru>
+      <velikosttridy>15</velikosttridy>
+      <nazevpredmetu>Pocitacove site</nazevpredmetu>
+      <pocetkreditu>5</pocetkreditu>
+      <JmenoGaranta>Pohan</JmenoGaranta>
+    </Predmet>
+    <Predmet>
+      <Jazyk>cz</Jazyk>
+      <SeznamSkupin />
+      <zkratka>POS</zkratka>
+      <pocettydnu>12</pocettydnu>
+      <hodinyprednasek>2</hodinyprednasek>
+      <hodinycviceni>2</hodinycviceni>
+      <hodinyseminaru>0</hodinyseminaru>
+      <velikosttridy>15</velikosttridy>
+      <nazevpredmetu>Pocitacove site</nazevpredmetu>
+      <pocetkreditu>5</pocetkreditu>
+      <JmenoGaranta>Pohan</JmenoGaranta>
+    </Predmet>
+    <Predmet>
+      <Jazyk>cz</Jazyk>
+      <SeznamSkupin />
+      <zkratka>POS</zkratka>
+      <pocettydnu>12</pocettydnu>
+      <hodinyprednasek>2</hodinyprednasek>
+      <hodinycviceni>2</hodinycviceni>
+      <hodinyseminaru>0</hodinyseminaru>
+      <velikosttridy>15</velikosttridy>
+      <nazevpredmetu>Pocitacove site</nazevpredmetu>
+      <pocetkreditu>5</pocetkreditu>
+      <JmenoGaranta>Pohan</JmenoGaranta>
     </Predmet>
   </listpredmetu>
   <listpracovnichstitku />

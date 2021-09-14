@@ -62,5 +62,10 @@ namespace UTB_PO_Stejskal
             
             return 0;
         }
+
+        private void propojenizamstitek_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

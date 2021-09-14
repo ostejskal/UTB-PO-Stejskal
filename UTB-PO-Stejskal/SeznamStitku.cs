@@ -18,6 +18,12 @@ namespace UTB_PO_Stejskal
             InitializeComponent();
             XMLObject obj = new XMLObject();
             allObjects = obj.DeSerialize();
+            listBox1.Items.Add("testovaci");
+            for (int i = 0; i < allObjects.listpracovnichstitku.Count; i++)
+            {
+                listBox1.Items.Add("neco");
+                listBox1.Items.Add(allObjects.listpracovnichstitku[i]);
+            }
         }
 
     }
