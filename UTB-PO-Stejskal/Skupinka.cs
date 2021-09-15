@@ -14,12 +14,12 @@ namespace UTB_PO_Stejskal
     {
         public string Zkratka { get; set; }
         public int Rocnik { get; set; }
-        Semestr Semestr;
+        public Semestr Semestr { get; set; }
         public int PocetStudentu { get; set; }
-        FormaStudia FormaStudia;
-        TypStudia TypStudia;
-        Jazyk Jazyk;
+        public FormaStudia FormaStudia { get; set; }
+        public TypStudia TypStudia { get; set; }
+        public Jazyk Jazyk { get; set; }
         public String Nazev { get; set; }
-        List<Predmet> SeznamPredmetu;
+        public List<Predmet> SeznamPredmetu;
     }
 }

@@ -36,6 +36,7 @@ namespace UTB_PO_Stejskal
                 XMLObject obj = new XMLObject();
                 allObjects.listzamestnancu.Add(novyzamestnanec);
                 obj.Serialize(allObjects);
+                this.Close();
             }
             catch (Exception ex) { MessageBox.Show("Chyba při přidávání předmětu: " + ex.Message); }
         }

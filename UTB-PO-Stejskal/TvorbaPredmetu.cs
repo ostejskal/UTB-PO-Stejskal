@@ -38,7 +38,7 @@ namespace UTB_PO_Stejskal
                 XMLObject obj = new XMLObject();
                 allObjects.listpredmetu.Add(novypredmet);
                 obj.Serialize(allObjects);
-
+                this.Close();
             }
             catch ( Exception ex)
             {

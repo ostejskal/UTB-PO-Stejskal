@@ -34,7 +34,6 @@
             this.tvorbazamestnance = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.generovanitlacitko = new System.Windows.Forms.Button();
             this.propojenizamstitek = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -88,19 +87,9 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
-            // generovanitlacitko
-            // 
-            this.generovanitlacitko.Location = new System.Drawing.Point(330, 78);
-            this.generovanitlacitko.Name = "generovanitlacitko";
-            this.generovanitlacitko.Size = new System.Drawing.Size(153, 57);
-            this.generovanitlacitko.TabIndex = 5;
-            this.generovanitlacitko.Text = "Generování štítků";
-            this.generovanitlacitko.UseVisualStyleBackColor = true;
-            this.generovanitlacitko.Click += new System.EventHandler(this.generovanitlacitko_Click);
-            // 
             // propojenizamstitek
             // 
-            this.propojenizamstitek.Location = new System.Drawing.Point(12, 141);
+            this.propojenizamstitek.Location = new System.Drawing.Point(330, 78);
             this.propojenizamstitek.Name = "propojenizamstitek";
             this.propojenizamstitek.Size = new System.Drawing.Size(153, 57);
             this.propojenizamstitek.TabIndex = 6;
@@ -112,9 +101,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(502, 229);
+            this.ClientSize = new System.Drawing.Size(502, 148);
             this.Controls.Add(this.propojenizamstitek);
-            this.Controls.Add(this.generovanitlacitko);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.tvorbazamestnance);
@@ -134,7 +122,6 @@
         private System.Windows.Forms.Button tvorbazamestnance;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button generovanitlacitko;
         private System.Windows.Forms.Button propojenizamstitek;
     }
 }

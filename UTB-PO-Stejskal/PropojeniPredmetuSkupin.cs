@@ -25,7 +25,7 @@ namespace UTB_PO_Stejskal
             }
             for (int i = 0; i < allObjects.listskupinky.Count; i++)
             {
-                listBoxSkup.Items.Add(new UTB_PO_Stejskal.ListBoxItem() { id = i, nazev = allObjects.listskupinky[i].Nazev });
+                listBoxSkup.Items.Add(new UTB_PO_Stejskal.ListBoxItem() { id = i, nazev = allObjects.listskupinky[i].Nazev.Trim() == "" ? "Neni zadán název" : allObjects.listskupinky[i].Nazev.Trim() });
             }
         }
 

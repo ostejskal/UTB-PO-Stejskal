@@ -2,26 +2,53 @@
 <AllObjects xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <listskupinky>
     <Skupinka>
+      <SeznamPredmetu />
       <Zkratka>SWI2</Zkratka>
       <Rocnik>2</Rocnik>
+      <Semestr>LS</Semestr>
       <PocetStudentu>10</PocetStudentu>
+      <FormaStudia>P</FormaStudia>
+      <TypStudia>Bc</TypStudia>
+      <Jazyk>cz</Jazyk>
       <Nazev>Softwarove inzenyrstvi ITA2</Nazev>
     </Skupinka>
     <Skupinka>
+      <SeznamPredmetu />
       <Zkratka>KYB4</Zkratka>
       <Rocnik>4</Rocnik>
+      <Semestr>LS</Semestr>
       <PocetStudentu>5</PocetStudentu>
+      <FormaStudia>P</FormaStudia>
+      <TypStudia>Bc</TypStudia>
+      <Jazyk>cz</Jazyk>
       <Nazev>Kybernetika ITA4</Nazev>
     </Skupinka>
     <Skupinka>
+      <SeznamPredmetu />
       <Zkratka>ROP</Zkratka>
       <Rocnik>1</Rocnik>
+      <Semestr>LS</Semestr>
       <PocetStudentu>30</PocetStudentu>
-      <Nazev />
+      <FormaStudia>P</FormaStudia>
+      <TypStudia>Bc</TypStudia>
+      <Jazyk>cz</Jazyk>
+      <Nazev>Rocnikovy projektanti</Nazev>
+    </Skupinka>
+    <Skupinka>
+      <SeznamPredmetu />
+      <Zkratka>MUL</Zkratka>
+      <Rocnik>1</Rocnik>
+      <Semestr>LS</Semestr>
+      <PocetStudentu>50</PocetStudentu>
+      <FormaStudia>P</FormaStudia>
+      <TypStudia>Bc</TypStudia>
+      <Jazyk>cz</Jazyk>
+      <Nazev>Multimedialni</Nazev>
     </Skupinka>
   </listskupinky>
   <listzamestnancu>
     <Zamestnanec>
+      <SeznamStitku />
       <jmeno>Jarda</jmeno>
       <prijmeni>Svec</prijmeni>
       <pracovniemail>jardasvec@gmail.com</pracovniemail>
@@ -30,12 +57,37 @@
       <uvazek>1</uvazek>
       <pracovnitelefon>999555999</pracovnitelefon>
       <soukromytelefon>292929299</soukromytelefon>
+      <PracovniBody>0</PracovniBody>
+    </Zamestnanec>
+    <Zamestnanec>
+      <SeznamStitku />
+      <jmeno>Ondrej</jmeno>
+      <prijmeni>Stejskal</prijmeni>
+      <pracovniemail>ostejskal@neco.com</pracovniemail>
+      <soukromyemail>ostejskal@atlas.cz</soukromyemail>
+      <doktorand>false</doktorand>
+      <uvazek>1</uvazek>
+      <pracovnitelefon>111222333</pracovnitelefon>
+      <soukromytelefon>444555666</soukromytelefon>
+      <PracovniBody>0</PracovniBody>
     </Zamestnanec>
   </listzamestnancu>
   <listpredmetu>
     <Predmet>
       <Jazyk>cz</Jazyk>
-      <SeznamSkupin />
+      <SeznamSkupin>
+        <Skupinka>
+          <SeznamPredmetu />
+          <Zkratka>MUL</Zkratka>
+          <Rocnik>1</Rocnik>
+          <Semestr>LS</Semestr>
+          <PocetStudentu>50</PocetStudentu>
+          <FormaStudia>P</FormaStudia>
+          <TypStudia>Bc</TypStudia>
+          <Jazyk>cz</Jazyk>
+          <Nazev>Multimedialni</Nazev>
+        </Skupinka>
+      </SeznamSkupin>
       <zkratka>PRG</zkratka>
       <pocettydnu>20</pocettydnu>
       <hodinyprednasek>50</hodinyprednasek>
@@ -48,7 +100,30 @@
     </Predmet>
     <Predmet>
       <Jazyk>cz</Jazyk>
-      <SeznamSkupin />
+      <SeznamSkupin>
+        <Skupinka>
+          <SeznamPredmetu />
+          <Zkratka>KYB4</Zkratka>
+          <Rocnik>4</Rocnik>
+          <Semestr>LS</Semestr>
+          <PocetStudentu>5</PocetStudentu>
+          <FormaStudia>P</FormaStudia>
+          <TypStudia>Bc</TypStudia>
+          <Jazyk>cz</Jazyk>
+          <Nazev>Kybernetika ITA4</Nazev>
+        </Skupinka>
+        <Skupinka>
+          <SeznamPredmetu />
+          <Zkratka>MUL</Zkratka>
+          <Rocnik>1</Rocnik>
+          <Semestr>LS</Semestr>
+          <PocetStudentu>50</PocetStudentu>
+          <FormaStudia>P</FormaStudia>
+          <TypStudia>Bc</TypStudia>
+          <Jazyk>cz</Jazyk>
+          <Nazev>Multimedialni</Nazev>
+        </Skupinka>
+      </SeznamSkupin>
       <zkratka>INF</zkratka>
       <pocettydnu>20</pocettydnu>
       <hodinyprednasek>20</hodinyprednasek>
@@ -72,32 +147,304 @@
       <pocetkreditu>5</pocetkreditu>
       <JmenoGaranta>Pohan</JmenoGaranta>
     </Predmet>
-    <Predmet>
-      <Jazyk>cz</Jazyk>
-      <SeznamSkupin />
-      <zkratka>POS</zkratka>
-      <pocettydnu>12</pocettydnu>
-      <hodinyprednasek>2</hodinyprednasek>
-      <hodinycviceni>2</hodinycviceni>
-      <hodinyseminaru>0</hodinyseminaru>
-      <velikosttridy>15</velikosttridy>
-      <nazevpredmetu>Pocitacove site</nazevpredmetu>
-      <pocetkreditu>5</pocetkreditu>
-      <JmenoGaranta>Pohan</JmenoGaranta>
-    </Predmet>
-    <Predmet>
-      <Jazyk>cz</Jazyk>
-      <SeznamSkupin />
-      <zkratka>POS</zkratka>
-      <pocettydnu>12</pocettydnu>
-      <hodinyprednasek>2</hodinyprednasek>
-      <hodinycviceni>2</hodinycviceni>
-      <hodinyseminaru>0</hodinyseminaru>
-      <velikosttridy>15</velikosttridy>
-      <nazevpredmetu>Pocitacove site</nazevpredmetu>
-      <pocetkreditu>5</pocetkreditu>
-      <JmenoGaranta>Pohan</JmenoGaranta>
-    </Predmet>
   </listpredmetu>
-  <listpracovnichstitku />
+  <listpracovnichstitku>
+    <PracovniStitek>
+      <Nazev>Informatika - prednaska </Nazev>
+      <Predmet>
+        <Jazyk>cz</Jazyk>
+        <SeznamSkupin>
+          <Skupinka>
+            <SeznamPredmetu />
+            <Zkratka>KYB4</Zkratka>
+            <Rocnik>4</Rocnik>
+            <Semestr>LS</Semestr>
+            <PocetStudentu>5</PocetStudentu>
+            <FormaStudia>P</FormaStudia>
+            <TypStudia>Bc</TypStudia>
+            <Jazyk>cz</Jazyk>
+            <Nazev>Kybernetika ITA4</Nazev>
+          </Skupinka>
+        </SeznamSkupin>
+        <zkratka>INF</zkratka>
+        <pocettydnu>20</pocettydnu>
+        <hodinyprednasek>20</hodinyprednasek>
+        <hodinycviceni>20</hodinycviceni>
+        <hodinyseminaru>20</hodinyseminaru>
+        <velikosttridy>30</velikosttridy>
+        <nazevpredmetu>Informatika</nazevpredmetu>
+        <pocetkreditu>3</pocetkreditu>
+        <JmenoGaranta>Jarda Svec</JmenoGaranta>
+      </Predmet>
+      <typ>prednaska</typ>
+      <PocetStudentu>5</PocetStudentu>
+      <PocetHodin>20</PocetHodin>
+      <PocetTydnu>20</PocetTydnu>
+      <JazykStitek>cz</JazykStitek>
+    </PracovniStitek>
+    <PracovniStitek>
+      <Nazev>Informatika - cviceni 0.</Nazev>
+      <Predmet>
+        <Jazyk>cz</Jazyk>
+        <SeznamSkupin>
+          <Skupinka>
+            <SeznamPredmetu />
+            <Zkratka>KYB4</Zkratka>
+            <Rocnik>4</Rocnik>
+            <Semestr>LS</Semestr>
+            <PocetStudentu>5</PocetStudentu>
+            <FormaStudia>P</FormaStudia>
+            <TypStudia>Bc</TypStudia>
+            <Jazyk>cz</Jazyk>
+            <Nazev>Kybernetika ITA4</Nazev>
+          </Skupinka>
+        </SeznamSkupin>
+        <zkratka>INF</zkratka>
+        <pocettydnu>20</pocettydnu>
+        <hodinyprednasek>20</hodinyprednasek>
+        <hodinycviceni>20</hodinycviceni>
+        <hodinyseminaru>20</hodinyseminaru>
+        <velikosttridy>30</velikosttridy>
+        <nazevpredmetu>Informatika</nazevpredmetu>
+        <pocetkreditu>3</pocetkreditu>
+        <JmenoGaranta>Jarda Svec</JmenoGaranta>
+      </Predmet>
+      <typ>cviceni</typ>
+      <PocetStudentu>5</PocetStudentu>
+      <PocetHodin>20</PocetHodin>
+      <PocetTydnu>20</PocetTydnu>
+      <JazykStitek>cz</JazykStitek>
+    </PracovniStitek>
+    <PracovniStitek>
+      <Nazev>Programovani - prednaska </Nazev>
+      <Predmet>
+        <Jazyk>cz</Jazyk>
+        <SeznamSkupin>
+          <Skupinka>
+            <SeznamPredmetu />
+            <Zkratka>MUL</Zkratka>
+            <Rocnik>1</Rocnik>
+            <Semestr>LS</Semestr>
+            <PocetStudentu>50</PocetStudentu>
+            <FormaStudia>P</FormaStudia>
+            <TypStudia>Bc</TypStudia>
+            <Jazyk>cz</Jazyk>
+            <Nazev>Multimedialni</Nazev>
+          </Skupinka>
+        </SeznamSkupin>
+        <zkratka>PRG</zkratka>
+        <pocettydnu>20</pocettydnu>
+        <hodinyprednasek>50</hodinyprednasek>
+        <hodinycviceni>50</hodinycviceni>
+        <hodinyseminaru>20</hodinyseminaru>
+        <velikosttridy>30</velikosttridy>
+        <nazevpredmetu>Programovani</nazevpredmetu>
+        <pocetkreditu>5</pocetkreditu>
+        <JmenoGaranta>Jarda Svec</JmenoGaranta>
+      </Predmet>
+      <typ>prednaska</typ>
+      <PocetStudentu>50</PocetStudentu>
+      <PocetHodin>50</PocetHodin>
+      <PocetTydnu>20</PocetTydnu>
+      <JazykStitek>cz</JazykStitek>
+    </PracovniStitek>
+    <PracovniStitek>
+      <Nazev>Programovani - cviceni 0.</Nazev>
+      <Predmet>
+        <Jazyk>cz</Jazyk>
+        <SeznamSkupin>
+          <Skupinka>
+            <SeznamPredmetu />
+            <Zkratka>MUL</Zkratka>
+            <Rocnik>1</Rocnik>
+            <Semestr>LS</Semestr>
+            <PocetStudentu>50</PocetStudentu>
+            <FormaStudia>P</FormaStudia>
+            <TypStudia>Bc</TypStudia>
+            <Jazyk>cz</Jazyk>
+            <Nazev>Multimedialni</Nazev>
+          </Skupinka>
+        </SeznamSkupin>
+        <zkratka>PRG</zkratka>
+        <pocettydnu>20</pocettydnu>
+        <hodinyprednasek>50</hodinyprednasek>
+        <hodinycviceni>50</hodinycviceni>
+        <hodinyseminaru>20</hodinyseminaru>
+        <velikosttridy>30</velikosttridy>
+        <nazevpredmetu>Programovani</nazevpredmetu>
+        <pocetkreditu>5</pocetkreditu>
+        <JmenoGaranta>Jarda Svec</JmenoGaranta>
+      </Predmet>
+      <typ>cviceni</typ>
+      <PocetStudentu>25</PocetStudentu>
+      <PocetHodin>50</PocetHodin>
+      <PocetTydnu>20</PocetTydnu>
+      <JazykStitek>cz</JazykStitek>
+    </PracovniStitek>
+    <PracovniStitek>
+      <Nazev>Programovani - cviceni 1.</Nazev>
+      <Predmet>
+        <Jazyk>cz</Jazyk>
+        <SeznamSkupin>
+          <Skupinka>
+            <SeznamPredmetu />
+            <Zkratka>MUL</Zkratka>
+            <Rocnik>1</Rocnik>
+            <Semestr>LS</Semestr>
+            <PocetStudentu>50</PocetStudentu>
+            <FormaStudia>P</FormaStudia>
+            <TypStudia>Bc</TypStudia>
+            <Jazyk>cz</Jazyk>
+            <Nazev>Multimedialni</Nazev>
+          </Skupinka>
+        </SeznamSkupin>
+        <zkratka>PRG</zkratka>
+        <pocettydnu>20</pocettydnu>
+        <hodinyprednasek>50</hodinyprednasek>
+        <hodinycviceni>50</hodinycviceni>
+        <hodinyseminaru>20</hodinyseminaru>
+        <velikosttridy>30</velikosttridy>
+        <nazevpredmetu>Programovani</nazevpredmetu>
+        <pocetkreditu>5</pocetkreditu>
+        <JmenoGaranta>Jarda Svec</JmenoGaranta>
+      </Predmet>
+      <typ>cviceni</typ>
+      <PocetStudentu>25</PocetStudentu>
+      <PocetHodin>50</PocetHodin>
+      <PocetTydnu>20</PocetTydnu>
+      <JazykStitek>cz</JazykStitek>
+    </PracovniStitek>
+    <PracovniStitek>
+      <Nazev>Informatika - prednaska </Nazev>
+      <Predmet>
+        <Jazyk>cz</Jazyk>
+        <SeznamSkupin>
+          <Skupinka>
+            <SeznamPredmetu />
+            <Zkratka>KYB4</Zkratka>
+            <Rocnik>4</Rocnik>
+            <Semestr>LS</Semestr>
+            <PocetStudentu>5</PocetStudentu>
+            <FormaStudia>P</FormaStudia>
+            <TypStudia>Bc</TypStudia>
+            <Jazyk>cz</Jazyk>
+            <Nazev>Kybernetika ITA4</Nazev>
+          </Skupinka>
+          <Skupinka>
+            <SeznamPredmetu />
+            <Zkratka>MUL</Zkratka>
+            <Rocnik>1</Rocnik>
+            <Semestr>LS</Semestr>
+            <PocetStudentu>50</PocetStudentu>
+            <FormaStudia>P</FormaStudia>
+            <TypStudia>Bc</TypStudia>
+            <Jazyk>cz</Jazyk>
+            <Nazev>Multimedialni</Nazev>
+          </Skupinka>
+        </SeznamSkupin>
+        <zkratka>INF</zkratka>
+        <pocettydnu>20</pocettydnu>
+        <hodinyprednasek>20</hodinyprednasek>
+        <hodinycviceni>20</hodinycviceni>
+        <hodinyseminaru>20</hodinyseminaru>
+        <velikosttridy>30</velikosttridy>
+        <nazevpredmetu>Informatika</nazevpredmetu>
+        <pocetkreditu>3</pocetkreditu>
+        <JmenoGaranta>Jarda Svec</JmenoGaranta>
+      </Predmet>
+      <typ>prednaska</typ>
+      <PocetStudentu>50</PocetStudentu>
+      <PocetHodin>20</PocetHodin>
+      <PocetTydnu>20</PocetTydnu>
+      <JazykStitek>cz</JazykStitek>
+    </PracovniStitek>
+    <PracovniStitek>
+      <Nazev>Informatika - cviceni 0.</Nazev>
+      <Predmet>
+        <Jazyk>cz</Jazyk>
+        <SeznamSkupin>
+          <Skupinka>
+            <SeznamPredmetu />
+            <Zkratka>KYB4</Zkratka>
+            <Rocnik>4</Rocnik>
+            <Semestr>LS</Semestr>
+            <PocetStudentu>5</PocetStudentu>
+            <FormaStudia>P</FormaStudia>
+            <TypStudia>Bc</TypStudia>
+            <Jazyk>cz</Jazyk>
+            <Nazev>Kybernetika ITA4</Nazev>
+          </Skupinka>
+          <Skupinka>
+            <SeznamPredmetu />
+            <Zkratka>MUL</Zkratka>
+            <Rocnik>1</Rocnik>
+            <Semestr>LS</Semestr>
+            <PocetStudentu>50</PocetStudentu>
+            <FormaStudia>P</FormaStudia>
+            <TypStudia>Bc</TypStudia>
+            <Jazyk>cz</Jazyk>
+            <Nazev>Multimedialni</Nazev>
+          </Skupinka>
+        </SeznamSkupin>
+        <zkratka>INF</zkratka>
+        <pocettydnu>20</pocettydnu>
+        <hodinyprednasek>20</hodinyprednasek>
+        <hodinycviceni>20</hodinycviceni>
+        <hodinyseminaru>20</hodinyseminaru>
+        <velikosttridy>30</velikosttridy>
+        <nazevpredmetu>Informatika</nazevpredmetu>
+        <pocetkreditu>3</pocetkreditu>
+        <JmenoGaranta>Jarda Svec</JmenoGaranta>
+      </Predmet>
+      <typ>cviceni</typ>
+      <PocetStudentu>25</PocetStudentu>
+      <PocetHodin>20</PocetHodin>
+      <PocetTydnu>20</PocetTydnu>
+      <JazykStitek>cz</JazykStitek>
+    </PracovniStitek>
+    <PracovniStitek>
+      <Nazev>Informatika - cviceni 1.</Nazev>
+      <Predmet>
+        <Jazyk>cz</Jazyk>
+        <SeznamSkupin>
+          <Skupinka>
+            <SeznamPredmetu />
+            <Zkratka>KYB4</Zkratka>
+            <Rocnik>4</Rocnik>
+            <Semestr>LS</Semestr>
+            <PocetStudentu>5</PocetStudentu>
+            <FormaStudia>P</FormaStudia>
+            <TypStudia>Bc</TypStudia>
+            <Jazyk>cz</Jazyk>
+            <Nazev>Kybernetika ITA4</Nazev>
+          </Skupinka>
+          <Skupinka>
+            <SeznamPredmetu />
+            <Zkratka>MUL</Zkratka>
+            <Rocnik>1</Rocnik>
+            <Semestr>LS</Semestr>
+            <PocetStudentu>50</PocetStudentu>
+            <FormaStudia>P</FormaStudia>
+            <TypStudia>Bc</TypStudia>
+            <Jazyk>cz</Jazyk>
+            <Nazev>Multimedialni</Nazev>
+          </Skupinka>
+        </SeznamSkupin>
+        <zkratka>INF</zkratka>
+        <pocettydnu>20</pocettydnu>
+        <hodinyprednasek>20</hodinyprednasek>
+        <hodinycviceni>20</hodinycviceni>
+        <hodinyseminaru>20</hodinyseminaru>
+        <velikosttridy>30</velikosttridy>
+        <nazevpredmetu>Informatika</nazevpredmetu>
+        <pocetkreditu>3</pocetkreditu>
+        <JmenoGaranta>Jarda Svec</JmenoGaranta>
+      </Predmet>
+      <typ>cviceni</typ>
+      <PocetStudentu>25</PocetStudentu>
+      <PocetHodin>20</PocetHodin>
+      <PocetTydnu>20</PocetTydnu>
+      <JazykStitek>cz</JazykStitek>
+    </PracovniStitek>
+  </listpracovnichstitku>
 </AllObjects>

@@ -40,14 +40,14 @@
             this.label9 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.oktvorbaskupiny = new System.Windows.Forms.Button();
+            this.comboforma = new System.Windows.Forms.ComboBox();
+            this.combotyp = new System.Windows.Forms.ComboBox();
+            this.combojazyk = new System.Windows.Forms.ComboBox();
+            this.combosemestr = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // label1
@@ -133,6 +133,7 @@
             // 
             // textBox1
             // 
+            this.textBox1.Enabled = false;
             this.textBox1.Location = new System.Drawing.Point(146, 265);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(231, 22);
@@ -145,40 +146,12 @@
             this.textBox2.Size = new System.Drawing.Size(231, 22);
             this.textBox2.TabIndex = 10;
             // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(146, 200);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(231, 22);
-            this.textBox3.TabIndex = 11;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(146, 166);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(231, 22);
-            this.textBox4.TabIndex = 12;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(146, 133);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(231, 22);
-            this.textBox5.TabIndex = 13;
-            // 
             // textBox6
             // 
             this.textBox6.Location = new System.Drawing.Point(146, 98);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(231, 22);
             this.textBox6.TabIndex = 14;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(146, 68);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(231, 22);
-            this.textBox7.TabIndex = 15;
             // 
             // textBox8
             // 
@@ -205,19 +178,52 @@
             this.oktvorbaskupiny.UseVisualStyleBackColor = false;
             this.oktvorbaskupiny.Click += new System.EventHandler(this.oktvorbaskupiny_Click);
             // 
+            // comboforma
+            // 
+            this.comboforma.FormattingEnabled = true;
+            this.comboforma.Location = new System.Drawing.Point(146, 133);
+            this.comboforma.Name = "comboforma";
+            this.comboforma.Size = new System.Drawing.Size(231, 24);
+            this.comboforma.TabIndex = 19;
+            // 
+            // combotyp
+            // 
+            this.combotyp.FormattingEnabled = true;
+            this.combotyp.Location = new System.Drawing.Point(146, 163);
+            this.combotyp.Name = "combotyp";
+            this.combotyp.Size = new System.Drawing.Size(231, 24);
+            this.combotyp.TabIndex = 20;
+            this.combotyp.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
+            // 
+            // combojazyk
+            // 
+            this.combojazyk.FormattingEnabled = true;
+            this.combojazyk.Location = new System.Drawing.Point(146, 193);
+            this.combojazyk.Name = "combojazyk";
+            this.combojazyk.Size = new System.Drawing.Size(231, 24);
+            this.combojazyk.TabIndex = 21;
+            // 
+            // combosemestr
+            // 
+            this.combosemestr.FormattingEnabled = true;
+            this.combosemestr.Location = new System.Drawing.Point(146, 67);
+            this.combosemestr.Name = "combosemestr";
+            this.combosemestr.Size = new System.Drawing.Size(231, 24);
+            this.combosemestr.TabIndex = 22;
+            // 
             // TvorbaStudijniSkupiny
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(389, 361);
+            this.Controls.Add(this.combosemestr);
+            this.Controls.Add(this.combojazyk);
+            this.Controls.Add(this.combotyp);
+            this.Controls.Add(this.comboforma);
             this.Controls.Add(this.oktvorbaskupiny);
             this.Controls.Add(this.textBox9);
             this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
             this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label9);
@@ -250,13 +256,13 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.TextBox textBox9;
         private System.Windows.Forms.Button oktvorbaskupiny;
+        private System.Windows.Forms.ComboBox comboforma;
+        private System.Windows.Forms.ComboBox combotyp;
+        private System.Windows.Forms.ComboBox combojazyk;
+        private System.Windows.Forms.ComboBox combosemestr;
     }
 }

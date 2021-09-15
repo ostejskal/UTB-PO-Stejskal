@@ -75,6 +75,7 @@
             this.listBoxZamestnanec.Name = "listBoxZamestnanec";
             this.listBoxZamestnanec.Size = new System.Drawing.Size(269, 388);
             this.listBoxZamestnanec.TabIndex = 1;
+            this.listBoxZamestnanec.SelectedIndexChanged += new System.EventHandler(this.listBoxZamestnanec_SelectedIndexChanged);
             // 
             // spoj
             // 
@@ -98,6 +99,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Stitek_Zamestnanec";
             this.Text = "Stitek_Zamestnanec";
+            this.Load += new System.EventHandler(this.Stitek_Zamestnanec_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.ResumeLayout(false);

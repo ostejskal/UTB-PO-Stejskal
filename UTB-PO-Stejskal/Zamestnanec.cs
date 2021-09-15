@@ -57,13 +57,27 @@ namespace UTB_PO_Stejskal
             get { return SoukromyTelefon; }
             set { SoukromyTelefon = value; }
         }
-        public int PracovniBodyBezAnglictiny ()
+
+        public double PracovniBody { get; set; }
+        public double PracovniBodycalc (TypPracStitek typstitek, Jazyk jazyk)
         {
+            if (jazyk==Jazyk.cz && typstitek==TypPracStitek.prednaska)
+            {
+                return 1.8;
+            }
+            else if (jazyk == Jazyk.eng && typstitek == TypPracStitek.prednaska)
+            {
+                return 2.4;
+            }
+            else if (jazyk == Jazyk.cz && typstitek == TypPracStitek.cviceni)
+            {
+                return 1.2;
+            }
+            else if (jazyk == Jazyk.eng && typstitek == TypPracStitek.cviceni)
+            {
+                return 1.8;
+            }
             return 0;
-        }
-        public int PracovniBody ()
-        {
-            return 0;
-        }
+        }        
     }
 }
